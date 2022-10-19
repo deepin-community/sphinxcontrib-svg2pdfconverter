@@ -1,0 +1,28 @@
+Source: sphinxcontrib-svg2pdfconverter
+Maintainer: Gianfranco Costamagna <locutusofborg@debian.org>
+Section: python
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               dh-python,
+               python3-all,
+               python3-cairosvg,
+               python3-setuptools,
+               python3-sphinx,
+Standards-Version: 4.6.0
+Homepage: https://github.com/missinglinkelectronics/sphinxcontrib-svg2pdfconverter
+
+Package: python3-sphinxcontrib.svg2pdfconverter
+Architecture: all
+Depends: ${misc:Depends},
+         ${python3:Depends},
+         librsvg2-bin,
+         inkscape,
+         python3-cairosvg
+Description: Sphinx SVG to PDF Converter Extension
+ This extension converts SVG images to PDF in case the builder
+ does not support SVG images natively (e.g. LaTeX).
+ .
+ Internally, either Inkscape or rsvg-convert from libRSVG as a more
+ lightweight alternative is used to convert images.
+ .
+ This package contains the Python 3.x module.

@@ -1,0 +1,47 @@
+sphinxcontrib-svg2pdfconverter (1.2.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bump std-version to 4.6.0, no change required.
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Mon, 08 Nov 2021 12:03:55 +0100
+
+sphinxcontrib-svg2pdfconverter (1.1.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Sun, 10 Jan 2021 18:56:52 +0100
+
+sphinxcontrib-svg2pdfconverter (1.1.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump std-version to 4.5.0
+  * Bump compat level to 13
+  * B-D on cairosvg, needed on new release
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Wed, 01 Jul 2020 22:43:04 +0200
+
+sphinxcontrib-svg2pdfconverter (1.0.1-1) unstable; urgency=medium
+
+  * New upstream release
+  * Drop all patches, now upstreamed
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Sat, 14 Sep 2019 08:23:14 +0200
+
+sphinxcontrib-svg2pdfconverter (0.1.0-2) unstable; urgency=medium
+
+  * Source-only reupload
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Thu, 12 Sep 2019 17:39:18 +0200
+
+sphinxcontrib-svg2pdfconverter (0.1.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #940121)
+  * Cherry-pick upstream changes in master or in PR:
+    - a488dc032c3d4d8057c2cce5b9e8f9e7cd305b45
+    - b57700a1efdf30b894ef38965ae91dba99ef8736
+    - dd2ceef1812f0d2d5899827e9cba9d1bca4b885f
+    - e8b28a72bb1f448ae3a713b8533ab9a6bd717e49
+    - 0001-Update-license-text-with-the-official-BSD-2-version.patch
+    - 0002-Update-LICENSE-file-to-LICENSE.txt.patch
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Thu, 12 Sep 2019 16:51:44 +0200
